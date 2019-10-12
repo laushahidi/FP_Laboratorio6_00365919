@@ -1,0 +1,9 @@
+x=int(input("Ingrese un numero: "))
+r=x%10
+d=int(x/10)
+print(r, end= "")
+while d != 0:
+  x=d
+  r=x%10
+  d=int(x/10)
+  print(r, end= "")
